@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 04, 2023 at 06:23 AM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Generation Time: Feb 10, 2023 at 07:30 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,7 +32,7 @@ CREATE TABLE `forecast` (
   `Kapitalisasi_Forecast` int(11) NOT NULL,
   `Harga_Forecast` int(11) NOT NULL,
   `Sirkulasi_Forecast` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -45,7 +45,7 @@ CREATE TABLE `kapitalisasi_pasar` (
   `Periode` float NOT NULL,
   `Kapitalisasi_Pasar` int(11) NOT NULL,
   `Satuan` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -61,7 +61,7 @@ CREATE TABLE `sampel_data` (
   `Satuan` varchar(150) NOT NULL,
   `Harga` int(11) NOT NULL,
   `Sirkulasi_Beredar` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `sampel_data`
@@ -143,7 +143,7 @@ CREATE TABLE `user` (
   `Email` varchar(150) NOT NULL,
   `Alamat` text NOT NULL,
   `Password` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
@@ -151,7 +151,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id_user`, `Nama`, `Email`, `Alamat`, `Password`) VALUES
 (1, 'Nianka', 'nianka@gmail.com', 'Jalan Diponegoro 5 No. 5', 'love3'),
-(2, 'Dono', 'Dono@gmail.com', 'Jalan Kembang Gula 2 No. 5', 'dodonono');
+(2, 'Dono', 'Dono@gmail.com', 'Jalan Kembang Gula 2 No. 5', 'dodonono'),
+(3, 'admin', 'admin@admin.com', 'lala', 'admin12345');
 
 --
 -- Indexes for dumped tables
@@ -207,7 +208,7 @@ ALTER TABLE `sampel_data`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

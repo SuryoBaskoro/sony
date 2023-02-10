@@ -254,282 +254,282 @@ $lag60 = $diff61;
 
 $jumlahlag1 = $lag1 + $lag2 + $lag3 + $lag4 + $lag5 + $lag6 + $lag7 + $lag8 + $lag9 + $lag10 + $lag11 + $lag12 + $lag13 + $lag14 + $lag15 + $lag16 + $lag17 + $lag18 + $lag19 + $lag20 + $lag21 + $lag22 + $lag23 + $lag24 + $lag25 + $lag26 + $lag27 + $lag28 + $lag29 + $lag30 + $lag31 + $lag32 + $lag33 + $lag34 + $lag35 + $lag36 + $lag37 + $lag38 + $lag39 + $lag40 + $lag41 + $lag42 + $lag43 + $lag44 + $lag45 + $lag46 + $lag47 + $lag48 + $lag49 + $lag50 + $lag51 + $lag52 + $lag53 + $lag54 + $lag55 + $lag56 + $lag57 + $lag58 + $lag59 + $lag60;
 // correlation
-// $y1 = (($a['Kapitalisasi_Pasar'] + $b['Kapitalisasi_Pasar'] + $c['Kapitalisasi_Pasar'] + $d['Kapitalisasi_Pasar'] + $e['Kapitalisasi_Pasar'] + $f['Kapitalisasi_Pasar'] + $g['Kapitalisasi_Pasar'] + $h['Kapitalisasi_Pasar'] + $i['Kapitalisasi_Pasar'] + $j['Kapitalisasi_Pasar'] + $k['Kapitalisasi_Pasar'] + $l['Kapitalisasi_Pasar'] + $m['Kapitalisasi_Pasar'] + $n['Kapitalisasi_Pasar'] + $o['Kapitalisasi_Pasar'] + $p['Kapitalisasi_Pasar'] + $q['Kapitalisasi_Pasar'] + $r['Kapitalisasi_Pasar'] + $s['Kapitalisasi_Pasar'] + $t['Kapitalisasi_Pasar'] + $u['Kapitalisasi_Pasar'] + $v['Kapitalisasi_Pasar'] + $w['Kapitalisasi_Pasar'] + $x['Kapitalisasi_Pasar'] + $y['Kapitalisasi_Pasar'] + $z['Kapitalisasi_Pasar'] + $a2['Kapitalisasi_Pasar'] + $b2['Kapitalisasi_Pasar'] + $c2['Kapitalisasi_Pasar'] + $d2['Kapitalisasi_Pasar'] + $e2['Kapitalisasi_Pasar'] + $f2['Kapitalisasi_Pasar'] + $g2['Kapitalisasi_Pasar'] + $h2['Kapitalisasi_Pasar'] + $i2['Kapitalisasi_Pasar'] + $j2['Kapitalisasi_Pasar'] + $k2['Kapitalisasi_Pasar'] + $l2['Kapitalisasi_Pasar'] + $m2['Kapitalisasi_Pasar'] + $n2['Kapitalisasi_Pasar'] + $o2['Kapitalisasi_Pasar'] + $p2['Kapitalisasi_Pasar'] + $q2['Kapitalisasi_Pasar'] + $r2['Kapitalisasi_Pasar'] + $s2['Kapitalisasi_Pasar'] + $t2['Kapitalisasi_Pasar'] + $u2['Kapitalisasi_Pasar'] + $v2['Kapitalisasi_Pasar'] + $w2['Kapitalisasi_Pasar'] + $x2['Kapitalisasi_Pasar'] + $y2['Kapitalisasi_Pasar'] + $z2['Kapitalisasi_Pasar'] + $a3['Kapitalisasi_Pasar'] + $b3['Kapitalisasi_Pasar'] + $c3['Kapitalisasi_Pasar'] + $d3['Kapitalisasi_Pasar'] + $e3['Kapitalisasi_Pasar'] + $f3['Kapitalisasi_Pasar'] + $g3['Kapitalisasi_Pasar'] + $h3['Kapitalisasi_Pasar'] + $i3['Kapitalisasi_Pasar'] + $j3['Kapitalisasi_Pasar'])) / 12;
-// // mentahan r correlation
-// $cra1 = $a['Kapitalisasi_Pasar'] - $y1;
-// $cra2 = $b['Kapitalisasi_Pasar'] - $y1;
-// $cra3 = $c['Kapitalisasi_Pasar'] - $y1;
-// $cra4 = $d['Kapitalisasi_Pasar'] - $y1;
-// $cra5 = $e['Kapitalisasi_Pasar'] - $y1;
-// $cra6 = $f['Kapitalisasi_Pasar'] - $y1;
-// $cra7 = $g['Kapitalisasi_Pasar'] - $y1;
-// $cra8 = $h['Kapitalisasi_Pasar'] - $y1;
-// $cra9 = $i['Kapitalisasi_Pasar'] - $y1;
-// $cra10 = $j['Kapitalisasi_Pasar'] - $y1;
-// $cra11 = $k['Kapitalisasi_Pasar'] - $y1;
-// $cra12 = $l['Kapitalisasi_Pasar'] - $y1;
-// $cra13 = $m['Kapitalisasi_Pasar'] - $y1;
-// $cra14 = $n['Kapitalisasi_Pasar'] - $y1;
-// $cra15 = $n['Kapitalisasi_Pasar'] - $y1;
-// $cra16 = $o['Kapitalisasi_Pasar'] - $y1;
-// $cra17 = $p['Kapitalisasi_Pasar'] - $y1;
-// $cra18 = $q['Kapitalisasi_Pasar'] - $y1;
-// $cra19 = $r['Kapitalisasi_Pasar'] - $y1;
-// $cra20 = $s['Kapitalisasi_Pasar'] - $y1;
-// $cra21 = $t['Kapitalisasi_Pasar'] - $y1;
-// $cra22 = $u['Kapitalisasi_Pasar'] - $y1;
-// $cra23 = $v['Kapitalisasi_Pasar'] - $y1;
-// $cra24 = $w['Kapitalisasi_Pasar'] - $y1;
-// $cra25 = $x['Kapitalisasi_Pasar'] - $y1;
-// $cra26 = $y['Kapitalisasi_Pasar'] - $y1;
-// $cra27 = $z['Kapitalisasi_Pasar'] - $y1;
-// $cra28 = $a2['Kapitalisasi_Pasar'] - $y1;
-// $cra29 = $b2['Kapitalisasi_Pasar'] - $y1;
-// $cra30 = $c2['Kapitalisasi_Pasar'] - $y1;
-// $cra31 = $d2['Kapitalisasi_Pasar'] - $y1;
-// $cra32 = $e2['Kapitalisasi_Pasar'] - $y1;
-// $cra33 = $f2['Kapitalisasi_Pasar'] - $y1;
-// $cra34 = $g2['Kapitalisasi_Pasar'] - $y1;
-// $cra35 = $h2['Kapitalisasi_Pasar'] - $y1;
-// $cra36 = $i2['Kapitalisasi_Pasar'] - $y1;
-// $cra37 = $j2['Kapitalisasi_Pasar'] - $y1;
-// $cra38 = $k2['Kapitalisasi_Pasar'] - $y1;
-// $cra39 = $l2['Kapitalisasi_Pasar'] - $y1;
-// $cra40 = $m2['Kapitalisasi_Pasar'] - $y1;
-// $cra41 = $n2['Kapitalisasi_Pasar'] - $y1;
-// $cra42 = $o2['Kapitalisasi_Pasar'] - $y1;
-// $cra43 = $q2['Kapitalisasi_Pasar'] - $y1;
-// $cra44 = $r2['Kapitalisasi_Pasar'] - $y1;
-// $cra45 = $s2['Kapitalisasi_Pasar'] - $y1;
-// $cra46 = $t2['Kapitalisasi_Pasar'] - $y1;
-// $cra47 = $u2['Kapitalisasi_Pasar'] - $y1;
-// $cra48 = $v2['Kapitalisasi_Pasar'] - $y1;
-// $cra49 = $x2['Kapitalisasi_Pasar'] - $y1;
-// $cra50 = $y2['Kapitalisasi_Pasar'] - $y1;
-// $cra51 = $z2['Kapitalisasi_Pasar'] - $y1;
-// $cra52 = $a3['Kapitalisasi_Pasar'] - $y1;
-// $cra53 = $b3['Kapitalisasi_Pasar'] - $y1;
-// $cra54 = $c3['Kapitalisasi_Pasar'] - $y1;
-// $cra55 = $d3['Kapitalisasi_Pasar'] - $y1;
-// $cra56 = $e3['Kapitalisasi_Pasar'] - $y1;
-// $cra57 = $f3['Kapitalisasi_Pasar'] - $y1;
-// $cra58 = $g3['Kapitalisasi_Pasar'] - $y1;
-// $cra59 = $h3['Kapitalisasi_Pasar'] - $y1;
-// $cra60 = $i3['Kapitalisasi_Pasar'] - $y1;
-// $cra61 = $j3['Kapitalisasi_Pasar'] - $y1;
-// // $cra13 = $m - $y1;
-// $cr1 = $cra1 * $cra1;
-// $cr2 = $cra2 * $cra2;
-// $cr3 = $cra3 * $cra3;
-// $cr4 = $cra4 * $cra4;
-// $cr5 = $cra5 * $cra5;
-// $cr6 = $cra6 * $cra6;
-// $cr7 = $cra7 * $cra7;
-// $cr8 = $cra8 * $cra8;
-// $cr9 = $cra9 * $cra9;
-// $cr10 = $cra10 * $cra10;
-// $cr11 = $cra11 * $cra11;
-// $cr12 = $cra12 * $cra12;
-// $cr13 = $cra13 * $cra13;
-// $cr14 = $cra14 * $cra14;
-// $cr15 = $cra15 * $cra15;
-// $cr16 = $cra16 * $cra16;
-// $cr17 = $cra17 * $cra17;
-// $cr18 = $cra18 * $cra18;
-// $cr19 = $cra19 * $cra19;
-// $cr20 = $cra20 * $cra20;
-// $cr21 = $cra21 * $cra21;
-// $cr22 = $cra22 * $cra22;
-// $cr23 = $cra23 * $cra23;
-// $cr24 = $cra24 * $cra24;
-// $cr25 = $cra25 * $cra25;
-// $cr26 = $cra26 * $cra26;
-// $cr27 = $cra27 * $cra27;
-// $cr28 = $cra28 * $cra28;
-// $cr29 = $cra29 * $cra29;
-// $cr30 = $cra30 * $cra30;
-// $cr31 = $cra31 * $cra31;
-// $cr32 = $cra32 * $cra32;
-// $cr33 = $cra33 * $cra33;
-// $cr34 = $cra34 * $cra34;
-// $cr35 = $cra35 * $cra35;
-// $cr36 = $cra36 * $cra36;
-// $cr37 = $cra37 * $cra37;
-// $cr38 = $cra38 * $cra38;
-// $cr39 = $cra39 * $cra39;
-// $cr40 = $cra40 * $cra40;
-// $cr41 = $cra41 * $cra41;
-// $cr42 = $cra42 * $cra42;
-// $cr43 = $cra43 * $cra43;
-// $cr44 = $cra44 * $cra44;
-// $cr45 = $cra45 * $cra45;
-// $cr46 = $cra46 * $cra46;
-// $cr47 = $cra47 * $cra47;
-// $cr48 = $cra48 * $cra48;
-// $cr49 = $cra49 * $cra49;
-// $cr50 = $cra50 * $cra50;
-// $cr51 = $cra51 * $cra51;
-// $cr52 = $cra52 * $cra52;
-// $cr53 = $cra53 * $cra53;
-// $cr54 = $cra54 * $cra54;
-// $cr55 = $cra55 * $cra55;
-// $cr56 = $cra56 * $cra56;
-// $cr57 = $cra57 * $cra57;
-// $cr58 = $cra58 * $cra58;
-// $cr59 = $cra59 * $cra59;
-// $cr60 = $cra60 * $cra60;
-// $cr61 = $cra61 * $cra61;
-// // R dalam 1 tahun start
-// // mencari r1
-// $r1 = (($cra1 * $cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cra1 * $cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r2
-// $r2 = (($cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r3
-// $r3 = (($cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r4
-// $r4 = (($cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r5
-// $r5 = (($cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r6
-// $r6 = (($cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r7
-// $r7 = (($cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r8
-// $r8 = (($cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr8 * $cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r9
-// $r9 = (($cra9 * $cra10 * $cra11 * $cra12)) / (($cr9 * $cr10 * $cr11 * $cr12));
-// // mencari r10
-// $r10 = (($cra10 * $cra11 * $cra12)) / (($cr10 * $cr11 * $cr12));
-// // mencari r11
-// $r11 = (($cra11 * $cra12)) / (($cr11 * $cr12));
-// // mencari r12
-// $r12 = $cra12 / $cr12;
-// // end
-// // R dalam 2 tahun start
-// // mencari r1
-// $r14 = (($cra1 * $cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cra1 * $cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r2
-// $r15 = (($cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r3
-// $r16 = (($cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r4
-// $r17 = (($cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r5
-// $r18 = (($cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r6
-// $r19 = (($cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r7
-// $r20 = (($cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r8
-// $r21 = (($cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r9
-// $r22 = (($cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r10
-// $r23 = (($cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r11
-// $r24 = (($cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r25
-// $r25 = (($cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r26 = (($cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r27
-// $r27 = (($cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r28 = (($cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r29 = (($cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r30 = (($cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r31 = (($cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r32 = (($cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r33 = (($cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr20 * $cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r34 = (($cra21 * $cra22 * $cra23 * $cra24)) / (($cr21 * $cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r35 = (($cra22 * $cra23 * $cra24)) / (($cr22 * $cr23 * $cr24));
-// // mencari r26
-// $r36 = (($cra23 * $cra24)) / (($cr23 * $cr24));
-// // mencari r26
-// $r37 = $cra24 / $cr24;
-// // end
-// // R dalam 3 tahun
-// // mencari r1
-// $r14 = (($cra1 * $cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cra1 * $cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r2
-// $r15 = (($cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r3
-// $r16 = (($cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r4
-// $r17 = (($cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r5
-// $r18 = (($cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r6
-// $r19 = (($cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r7
-// $r20 = (($cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r8
-// $r21 = (($cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r9
-// $r22 = (($cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r10
-// $r23 = (($cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r11
-// $r24 = (($cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r25
-// $r25 = (($cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r26 = (($cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r27
-// $r27 = (($cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r28 = (($cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r29 = (($cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r30 = (($cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r31 = (($cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r32 = (($cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r33 = (($cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r34 = (($cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r35 = (($cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r36 = (($cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r37 = (($cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r38 = (($cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r39 = (($cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r40 = (($cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r41 = (($cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r42 = (($cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r43 = (($cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r44 = (($cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r45 = (($cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr32 * $cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r46 = (($cra33 * $cra34 * $cra35 * $cra36)) / (($cr33 * $cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r47 = (($cra34 * $cra35 * $cra36)) / (($cr34 * $cr35 * $cr36));
-// // mencari r26
-// $r48 = (($cra35 * $cra36)) / (($cr35 * $cr36));
-// // mencari r26
-// $r49 = $cra36 / $cr36;
-// // end
-// // R dalam 4 tahun
+$y1 = (($a['Kapitalisasi_Pasar'] + $b['Kapitalisasi_Pasar'] + $c['Kapitalisasi_Pasar'] + $d['Kapitalisasi_Pasar'] + $e['Kapitalisasi_Pasar'] + $f['Kapitalisasi_Pasar'] + $g['Kapitalisasi_Pasar'] + $h['Kapitalisasi_Pasar'] + $i['Kapitalisasi_Pasar'] + $j['Kapitalisasi_Pasar'] + $k['Kapitalisasi_Pasar'] + $l['Kapitalisasi_Pasar'] + $m['Kapitalisasi_Pasar'] + $n['Kapitalisasi_Pasar'] + $o['Kapitalisasi_Pasar'] + $p['Kapitalisasi_Pasar'] + $q['Kapitalisasi_Pasar'] + $r['Kapitalisasi_Pasar'] + $s['Kapitalisasi_Pasar'] + $t['Kapitalisasi_Pasar'] + $u['Kapitalisasi_Pasar'] + $v['Kapitalisasi_Pasar'] + $w['Kapitalisasi_Pasar'] + $x['Kapitalisasi_Pasar'] + $y['Kapitalisasi_Pasar'] + $z['Kapitalisasi_Pasar'] + $a4['Kapitalisasi_Pasar'] + $b4['Kapitalisasi_Pasar'] + $c4['Kapitalisasi_Pasar'] + $d4['Kapitalisasi_Pasar'] + $e4['Kapitalisasi_Pasar'] + $f4['Kapitalisasi_Pasar'] + $g4['Kapitalisasi_Pasar'] + $h4['Kapitalisasi_Pasar'] + $i4['Kapitalisasi_Pasar'] + $j4['Kapitalisasi_Pasar'] + $k4['Kapitalisasi_Pasar'] + $l4['Kapitalisasi_Pasar'] + $m4['Kapitalisasi_Pasar'] + $n4['Kapitalisasi_Pasar'] + $o4['Kapitalisasi_Pasar'] + $p4['Kapitalisasi_Pasar'] + $q4['Kapitalisasi_Pasar'] + $r4['Kapitalisasi_Pasar'] + $s4['Kapitalisasi_Pasar'] + $t4['Kapitalisasi_Pasar'] + $u4['Kapitalisasi_Pasar'] + $v4['Kapitalisasi_Pasar'] + $w4['Kapitalisasi_Pasar'] + $x4['Kapitalisasi_Pasar'] + $y4['Kapitalisasi_Pasar'] + $z4['Kapitalisasi_Pasar'] + $a5['Kapitalisasi_Pasar'] + $b5['Kapitalisasi_Pasar'] + $c5['Kapitalisasi_Pasar'] + $d5['Kapitalisasi_Pasar'] + $e5['Kapitalisasi_Pasar'] + $f5['Kapitalisasi_Pasar'] + $g5['Kapitalisasi_Pasar'] + $h5['Kapitalisasi_Pasar'] + $i5['Kapitalisasi_Pasar'] + $j5['Kapitalisasi_Pasar'])) / 62;
+// mentahan r correlation
+$cra1 = $a['Kapitalisasi_Pasar'] - $y1;
+$cra2 = $b['Kapitalisasi_Pasar'] - $y1;
+$cra3 = $c['Kapitalisasi_Pasar'] - $y1;
+$cra4 = $d['Kapitalisasi_Pasar'] - $y1;
+$cra5 = $e['Kapitalisasi_Pasar'] - $y1;
+$cra6 = $f['Kapitalisasi_Pasar'] - $y1;
+$cra7 = $g['Kapitalisasi_Pasar'] - $y1;
+$cra8 = $h['Kapitalisasi_Pasar'] - $y1;
+$cra9 = $i['Kapitalisasi_Pasar'] - $y1;
+$cra10 = $j['Kapitalisasi_Pasar'] - $y1;
+$cra11 = $k['Kapitalisasi_Pasar'] - $y1;
+$cra12 = $l['Kapitalisasi_Pasar'] - $y1;
+$cra13 = $m['Kapitalisasi_Pasar'] - $y1;
+$cra14 = $n['Kapitalisasi_Pasar'] - $y1;
+$cra15 = $n['Kapitalisasi_Pasar'] - $y1;
+$cra16 = $o['Kapitalisasi_Pasar'] - $y1;
+$cra17 = $p['Kapitalisasi_Pasar'] - $y1;
+$cra18 = $q['Kapitalisasi_Pasar'] - $y1;
+$cra19 = $r['Kapitalisasi_Pasar'] - $y1;
+$cra20 = $s['Kapitalisasi_Pasar'] - $y1;
+$cra21 = $t['Kapitalisasi_Pasar'] - $y1;
+$cra22 = $u['Kapitalisasi_Pasar'] - $y1;
+$cra23 = $v['Kapitalisasi_Pasar'] - $y1;
+$cra24 = $w['Kapitalisasi_Pasar'] - $y1;
+$cra25 = $x['Kapitalisasi_Pasar'] - $y1;
+$cra26 = $y['Kapitalisasi_Pasar'] - $y1;
+$cra27 = $z['Kapitalisasi_Pasar'] - $y1;
+$cra28 = $a4['Kapitalisasi_Pasar'] - $y1;
+$cra29 = $b4['Kapitalisasi_Pasar'] - $y1;
+$cra30 = $c4['Kapitalisasi_Pasar'] - $y1;
+$cra31 = $d4['Kapitalisasi_Pasar'] - $y1;
+$cra32 = $e4['Kapitalisasi_Pasar'] - $y1;
+$cra33 = $f4['Kapitalisasi_Pasar'] - $y1;
+$cra34 = $g4['Kapitalisasi_Pasar'] - $y1;
+$cra35 = $h4['Kapitalisasi_Pasar'] - $y1;
+$cra36 = $i4['Kapitalisasi_Pasar'] - $y1;
+$cra37 = $j4['Kapitalisasi_Pasar'] - $y1;
+$cra38 = $k4['Kapitalisasi_Pasar'] - $y1;
+$cra39 = $l4['Kapitalisasi_Pasar'] - $y1;
+$cra40 = $m4['Kapitalisasi_Pasar'] - $y1;
+$cra41 = $n4['Kapitalisasi_Pasar'] - $y1;
+$cra42 = $o4['Kapitalisasi_Pasar'] - $y1;
+$cra43 = $q4['Kapitalisasi_Pasar'] - $y1;
+$cra44 = $r4['Kapitalisasi_Pasar'] - $y1;
+$cra45 = $s4['Kapitalisasi_Pasar'] - $y1;
+$cra46 = $t4['Kapitalisasi_Pasar'] - $y1;
+$cra47 = $u4['Kapitalisasi_Pasar'] - $y1;
+$cra48 = $v4['Kapitalisasi_Pasar'] - $y1;
+$cra49 = $x4['Kapitalisasi_Pasar'] - $y1;
+$cra50 = $y4['Kapitalisasi_Pasar'] - $y1;
+$cra51 = $z4['Kapitalisasi_Pasar'] - $y1;
+$cra52 = $a5['Kapitalisasi_Pasar'] - $y1;
+$cra53 = $b5['Kapitalisasi_Pasar'] - $y1;
+$cra54 = $c5['Kapitalisasi_Pasar'] - $y1;
+$cra55 = $d5['Kapitalisasi_Pasar'] - $y1;
+$cra56 = $e5['Kapitalisasi_Pasar'] - $y1;
+$cra57 = $f5['Kapitalisasi_Pasar'] - $y1;
+$cra58 = $g5['Kapitalisasi_Pasar'] - $y1;
+$cra59 = $h5['Kapitalisasi_Pasar'] - $y1;
+$cra60 = $i5['Kapitalisasi_Pasar'] - $y1;
+$cra61 = $j5['Kapitalisasi_Pasar'] - $y1;
+// $cra13 = $m - $y1;
+$cr1 = $cra1 * $cra1;
+$cr2 = $cra2 * $cra2;
+$cr3 = $cra3 * $cra3;
+$cr4 = $cra4 * $cra4;
+$cr5 = $cra5 * $cra5;
+$cr6 = $cra6 * $cra6;
+$cr7 = $cra7 * $cra7;
+$cr8 = $cra8 * $cra8;
+$cr9 = $cra9 * $cra9;
+$cr10 = $cra10 * $cra10;
+$cr11 = $cra11 * $cra11;
+$cr12 = $cra12 * $cra12;
+$cr13 = $cra13 * $cra13;
+$cr14 = $cra14 * $cra14;
+$cr15 = $cra15 * $cra15;
+$cr16 = $cra16 * $cra16;
+$cr17 = $cra17 * $cra17;
+$cr18 = $cra18 * $cra18;
+$cr19 = $cra19 * $cra19;
+$cr20 = $cra20 * $cra20;
+$cr21 = $cra21 * $cra21;
+$cr22 = $cra22 * $cra22;
+$cr23 = $cra23 * $cra23;
+$cr24 = $cra24 * $cra24;
+$cr25 = $cra25 * $cra25;
+$cr26 = $cra26 * $cra26;
+$cr27 = $cra27 * $cra27;
+$cr28 = $cra28 * $cra28;
+$cr29 = $cra29 * $cra29;
+$cr30 = $cra30 * $cra30;
+$cr31 = $cra31 * $cra31;
+$cr32 = $cra32 * $cra32;
+$cr33 = $cra33 * $cra33;
+$cr34 = $cra34 * $cra34;
+$cr35 = $cra35 * $cra35;
+$cr36 = $cra36 * $cra36;
+$cr37 = $cra37 * $cra37;
+$cr38 = $cra38 * $cra38;
+$cr39 = $cra39 * $cra39;
+$cr40 = $cra40 * $cra40;
+$cr41 = $cra41 * $cra41;
+$cr42 = $cra42 * $cra42;
+$cr43 = $cra43 * $cra43;
+$cr44 = $cra44 * $cra44;
+$cr45 = $cra45 * $cra45;
+$cr46 = $cra46 * $cra46;
+$cr47 = $cra47 * $cra47;
+$cr48 = $cra48 * $cra48;
+$cr49 = $cra49 * $cra49;
+$cr50 = $cra50 * $cra50;
+$cr51 = $cra51 * $cra51;
+$cr52 = $cra52 * $cra52;
+$cr53 = $cra53 * $cra53;
+$cr54 = $cra54 * $cra54;
+$cr55 = $cra55 * $cra55;
+$cr56 = $cra56 * $cra56;
+$cr57 = $cra57 * $cra57;
+$cr58 = $cra58 * $cra58;
+$cr59 = $cra59 * $cra59;
+$cr60 = $cra60 * $cra60;
+$cr61 = $cra61 * $cra61;
+// R dalam 1 tahun start
+// mencari r1
+$r1 = (($cra1 * $cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cra1 * $cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r2
+$r2 = (($cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r3
+$r3 = (($cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r4
+$r4 = (($cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r5
+$r5 = (($cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r6
+$r6 = (($cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r7
+$r7 = (($cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r8
+$r8 = (($cra8 * $cra9 * $cra10 * $cra11 * $cra12)) / (($cr8 * $cr9 * $cr10 * $cr11 * $cr12));
+// mencari r9
+$r9 = (($cra9 * $cra10 * $cra11 * $cra12)) / (($cr9 * $cr10 * $cr11 * $cr12));
+// mencari r10
+$r10 = (($cra10 * $cra11 * $cra12)) / (($cr10 * $cr11 * $cr12));
+// mencari r11
+$r11 = (($cra11 * $cra12)) / (($cr11 * $cr12));
+// mencari r12
+$r12 = $cra12 / $cr12;
+// end
+// R dalam 2 tahun start
+// mencari r1
+$r14 = (($cra1 * $cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cra1 * $cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r2
+$r15 = (($cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r3
+$r16 = (($cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r4
+$r17 = (($cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r5
+$r18 = (($cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r6
+$r19 = (($cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r7
+$r20 = (($cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r8
+$r21 = (($cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r9
+$r22 = (($cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r10
+$r23 = (($cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r11
+$r24 = (($cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r25
+$r25 = (($cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r26 = (($cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r27
+$r27 = (($cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r28 = (($cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r29 = (($cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r30 = (($cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r31 = (($cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r32 = (($cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r33 = (($cra20 * $cra21 * $cra22 * $cra23 * $cra24)) / (($cr20 * $cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r34 = (($cra21 * $cra22 * $cra23 * $cra24)) / (($cr21 * $cr22 * $cr23 * $cr24));
+// mencari r26
+$r35 = (($cra22 * $cra23 * $cra24)) / (($cr22 * $cr23 * $cr24));
+// mencari r26
+$r36 = (($cra23 * $cra24)) / (($cr23 * $cr24));
+// mencari r26
+$r37 = $cra24 / $cr24;
+// end
+// R dalam 3 tahun
+// mencari r1
+$r14 = (($cra1 * $cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cra1 * $cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r2
+$r15 = (($cra2 * $cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr2 * $cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r3
+$r16 = (($cra3 * $cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr3 * $cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r4
+$r17 = (($cra4 * $cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr4 * $cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r5
+$r18 = (($cra5 * $cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr5 * $cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r6
+$r19 = (($cra6 * $cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr6 * $cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r7
+$r20 = (($cra7 * $cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr7 * $cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r8
+$r21 = (($cra8 * $cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr8 * $cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r9
+$r22 = (($cra9 * $cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr9 * $cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r10
+$r23 = (($cra10 * $cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr10 * $cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r11
+$r24 = (($cra11 * $cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr11 * $cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r25
+$r25 = (($cra12 * $cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr12 * $cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r26 = (($cra13 * $cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr13 * $cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r27
+$r27 = (($cra14 * $cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr14 * $cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r28 = (($cra15 * $cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr15 * $cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r29 = (($cra16 * $cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr16 * $cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r30 = (($cra17 * $cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr17 * $cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r31 = (($cra18 * $cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr18 * $cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r32 = (($cra19 * $cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr19 * $cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r33 = (($cra20 * $cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr20 * $cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r34 = (($cra21 * $cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr21 * $cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r35 = (($cra22 * $cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr22 * $cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r36 = (($cra23 * $cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr23 * $cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r37 = (($cra24 * $cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr24 * $cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r38 = (($cra25 * $cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr25 * $cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r39 = (($cra26 * $cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr26 * $cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r40 = (($cra27 * $cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr27 * $cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r41 = (($cra28 * $cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr28 * $cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r42 = (($cra29 * $cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr29 * $cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r43 = (($cra30 * $cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr30 * $cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r44 = (($cra31 * $cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr31 * $cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r45 = (($cra32 * $cra33 * $cra34 * $cra35 * $cra36)) / (($cr32 * $cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r46 = (($cra33 * $cra34 * $cra35 * $cra36)) / (($cr33 * $cr34 * $cr35 * $cr36));
+// mencari r26
+$r47 = (($cra34 * $cra35 * $cra36)) / (($cr34 * $cr35 * $cr36));
+// mencari r26
+$r48 = (($cra35 * $cra36)) / (($cr35 * $cr36));
+// mencari r26
+$r49 = $cra36 / $cr36;
+// end
+// R dalam 4 tahun
 // x.y
 $xy1 = $diff1 * $lag1;
 $xy2 = $diff2 * $lag2;
@@ -739,4 +739,4 @@ $dyt9 = $jumlrxy * $diff9;
 $dyt10 = $jumlrxy * $diff10;
 $dyt11 = $jumlrxy * $diff11;
 // $dyt1 = $jumlrxy * $diff1;
-echo $jumlrxy;
+echo $r1;

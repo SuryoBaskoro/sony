@@ -57,7 +57,8 @@ require 'koneksi.php';
     }
 
     .navbar-button {
-      margin-left: 834.5px;
+      margin-left: 974.5px; 
+      margin-right: 20px;
     }
 
     .navbar ul li {
@@ -187,7 +188,7 @@ require 'koneksi.php';
       position: absolute;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       padding-top: 20px;
-      margin-left: 470px;
+      margin-left: 560px;
       margin-bottom: 0px;
       border-radius: 10px;
     }
@@ -302,7 +303,8 @@ require 'koneksi.php';
       margin: 65px 0px 0px 0px;
       padding: 170px;
       position: absolute;
-      width: 1348px;
+      width: 100%;
+      min-height: 200px;  
       background-image: url('/MASTER/img/Home_1x.jpg');
       background-repeat: no-repeat;
       background-size: cover;
@@ -345,7 +347,7 @@ require 'koneksi.php';
     h1 {
       position: absolute;
       margin-top: 50px;
-      margin-left: 490px;
+      margin-left: 570px;
       font-family: century gothic;
       color: white;
       text-shadow: black 2px 2px 8px;
@@ -358,7 +360,7 @@ require 'koneksi.php';
       padding-left: 540px;
       padding-right: 600px;
       margin-right: 100px;
-      margin-left: 100px;
+      margin-left: 180px;
     }
 
     .word-line2 hr {
@@ -368,7 +370,7 @@ require 'koneksi.php';
       padding-left: 540px;
       padding-right: 600px;
       margin-right: 100px;
-      margin-left: 110px;
+      margin-left: 200px;
     }
 
     .word-line3 hr {
@@ -378,7 +380,7 @@ require 'koneksi.php';
       padding-left: 540px;
       padding-right: 600px;
       margin-right: 100px;
-      margin-left: 110px;
+      margin-left: 200px;
     }
 
     .word-line4 hr {
@@ -388,13 +390,13 @@ require 'koneksi.php';
       padding-left: 540px;
       padding-right: 600px;
       margin-right: 100px;
-      margin-left: 110px;
+      margin-left: 200px;
     }
 
     p2 {
       margin-top: 100px;
       font-size: 13.5px;
-      margin-left: 275px;
+      margin-left: 350px;
       position: absolute;
       color: white;
       font-family: arial;
@@ -412,7 +414,7 @@ require 'koneksi.php';
       background-color: #474747;
       position: absolute;
       margin-top: 160px;
-      margin-left: 35px;
+      margin-left: 60px;
       padding-bottom: 70px;
       padding-left: 170px;
       padding-top: 170px;
@@ -446,6 +448,7 @@ require 'koneksi.php';
     }
 
     .footer {
+      width: 100%;
       padding-top: 10px;
       padding-bottom: 13px;
       padding-left: 693.2px;
@@ -470,7 +473,7 @@ require 'koneksi.php';
     }
 
     .triangle-home {
-      margin-left: 886.5px;
+      margin-left: 997px;
       margin-top: 630px;
     }
 
@@ -481,47 +484,47 @@ require 'koneksi.php';
 
     .kata-kata2 h1 {
       margin-top: -510px;
-      margin-left: 45px;
+      margin-left: 95px;
     }
 
     .kata-kata2 p2 {
       margin-top: -470px;
-      margin-left: 45px;
+      margin-left: 95px;
       text-align: left;
     }
 
     .kata-kata3 p2 {
       margin-top: -350px;
-      margin-left: 45px;
+      margin-left: 95px;
       text-align: left;
     }
 
     .kata-kata4 p2 {
       margin-top: -230px;
-      margin-left: 45px;
+      margin-left: 95px;
       text-align: left;
     }
 
     .kata-kata5 h1 {
       margin-top: 140px;
-      margin-left: 935px;
+      margin-left: 1055px;
     }
 
     .kata-kata5 p2 {
       margin-top: 185px;
-      margin-left: 530px;
+      margin-left: 650px;
       text-align: right;
     }
 
     .kata-kata6 p2 {
       margin-top: 310px;
-      margin-left: 590px;
+      margin-left: 710px;
       text-align: right;
     }
 
     .kata-kata7 p2 {
       margin-top: 440px;
-      margin-left: 590px;
+      margin-left: 710px;
       text-align: right;
     }
 
@@ -725,7 +728,7 @@ require 'koneksi.php';
           <li><a href="https://blockchair.com/id/bitcoin/addresses" target="_blank">Address</a></li>
         </ul>
       </li>
-      <li><a href="#Market" target="_blank">MARKET</a></li>
+      <li><a href="https://coinmarketcap.com/currencies/bitcoin/markets/" target="_blank">MARKET</a></li>
       <li><a href="https://news.bitcoin.com/" target="_blank">NEWS</a></li>
       <ul class="navbar-right">
         <li onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
